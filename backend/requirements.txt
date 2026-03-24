@@ -58,9 +58,10 @@ packaging==24.1
 pandas==2.3.3
 parso==0.8.4
 pillow==11.3.0
+pip==25.3
 platformdirs==4.2.2
 pluggy==1.6.0
-praw @ https://github.com/praw-dev/praw/archive/main.zip#sha256=7076988f5e42b5bda56d717d2d07225da058055099f08dd49c30108ec08b2351
+praw==7.8.2.dev0
 prawcore==3.0.2
 proglog==0.1.12
 prompt_toolkit==3.0.47
@@ -97,8 +98,8 @@ timple==0.1.8
 tornado==6.4.1
 tqdm==4.67.1
 traitlets==5.14.3
-typing-inspection==0.4.2
 typing_extensions==4.15.0
+typing-inspection==0.4.2
 tzdata==2025.2
 update-checker==0.18.0
 url-normalize==2.2.1
