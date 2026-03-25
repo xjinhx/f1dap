@@ -166,7 +166,7 @@ export default function App() {
     pendingResult.current = null;
 
     try {
-      const res = await fetch("http://localhost:8000/predict", {
+      const res = await fetch("https://f1dap.onrender.com/predict", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(values),
