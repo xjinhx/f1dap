@@ -232,7 +232,7 @@ export default function App() {
             </div>
           </div>
           <p style={styles.subheader}>
-            LightGBM · Optuna Tuned · 2018–2024 Training · 2025 Test · ~5 Grid Positions MAE
+            XGBoost · Optuna Tuned · 2018–2024 Training · 2025 Test · ~5 Grid Positions MAE
           </p>
         </div>
         <div style={styles.headerLine} />
@@ -342,7 +342,7 @@ export default function App() {
                     {[
                       { label: "RAW PREDICTION", val: result.predicted_position },
                       { label: "MODEL MAE", val: "~5.0" },
-                      { label: "ALGORITHM", val: "LightGBM" },
+                      { label: "ALGORITHM", val: "XGBoost" },
                     ].map((s) => (
                       <div key={s.label} style={styles.metaStat}>
                         <span style={styles.metaStatLabel}>{s.label}</span>
@@ -386,7 +386,7 @@ export default function App() {
         <section style={styles.infoCard}>
           <div style={styles.infoGrid}>
             {[
-              { label: "MODEL", val: "LightGBM" },
+              { label: "MODEL", val: "XGBoost" },
               { label: "TUNING", val: "Optuna" },
               { label: "TRAIN", val: "2018–2023" },
               { label: "EVAL", val: "2024" },
